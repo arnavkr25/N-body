@@ -82,4 +82,4 @@ Each script opens a live matplotlib animation window. v4 and onwards show an ene
 
 Energy drift (nbody3): < 0.01 units over 1000 frames at dt = 0.01, confirming RK4 integration quality.
 
-nbody5 sustains 51-body dynamics with a Barnes-Hut quadtree (θ = 0.5) rebuilt at each RK4 stage.
+nbody4 sustains 51-body dynamics with a Barnes-Hut quadtree (θ = 0.5) rebuilt at each RK4 stage.
