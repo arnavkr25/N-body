@@ -291,6 +291,3 @@ def update(frame):
 ani = FuncAnimation(fig, update, frames=10000, interval=10)
 plt.show()
 
-
-#very laggy and slow
-#needs crazy optimization
