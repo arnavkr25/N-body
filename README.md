@@ -28,7 +28,7 @@ Adds a live energy conservation plot alongside the orbital view. At each frame, 
 
 ---
 
-### `nbody4.py` — Barnes-Hut Tree + RK4 (51 bodies)
+### `nbody4.py` — Barnes-Hut Tree + RK4
 Introduces the Barnes-Hut algorithm to reduce force computation from O(N²) to O(N log N). A quadtree is built every timestep; for each body, distant clusters are approximated by their center of mass using the opening angle criterion `s/d < θ` (θ = 0.5). Scales to 50 orbiting bodies around a central mass.
 
 **How the tree works:**
